@@ -1151,5 +1151,3 @@ class _ButtonRowState extends State<FoodRestroCart> {
 Color blendColor(Color color1, Color color2, double amount) {
   return Color.lerp(color1, color2, amount)!;
 }
-
-
