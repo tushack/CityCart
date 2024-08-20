@@ -1,10 +1,8 @@
 import 'dart:async';
 
-import 'package:citycart/Page/AdressBook.dart';
 import 'package:citycart/Page/Grocery/G_profile.dart';
 import 'package:citycart/Page/Grocery/Grocery_Bottom_Navbar.dart';
 import 'package:citycart/Page/Grocery/Grocery_Cartview.dart';
-import 'package:citycart/Page/foodselctionprocess.dart';
 import 'package:flutter/material.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
@@ -152,10 +150,10 @@ class _CityCartScreenState extends State<GroceryHomepage> {
                               GestureDetector(
                                 onTap: () {
                                   // Navigate to the next page when the user taps on the Container
-                                  Navigator.push(
-                                    context,
-                                    MaterialPageRoute(builder: (context) => Addressbook()), // Replace with your next page widget
-                                  );
+                                  // Navigator.push(
+                                  //   context,
+                                  //   MaterialPageRoute(builder: (context) => Addressbook()), // Replace with your next page widget
+                                  // );
                                 },
                                 child: Column(
                                   crossAxisAlignment: CrossAxisAlignment.start,
@@ -255,10 +253,10 @@ class _CityCartScreenState extends State<GroceryHomepage> {
                                   ),
                                   onTap: () {
                                     // Navigate to the next page when the user taps on the TextField
-                                    Navigator.push(
-                                      context,
-                                      MaterialPageRoute(builder: (context) => SearchPage()), // Replace with your next page widget
-                                    );
+                                    // Navigator.push(
+                                    //   context,
+                                    //   MaterialPageRoute(builder: (context) => SearchPage()), // Replace with your next page widget
+                                    // );
                                   },
                                 ),
                               ),

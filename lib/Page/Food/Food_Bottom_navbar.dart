@@ -1,12 +1,11 @@
 
 import 'dart:ui';
 import 'package:citycart/Page/Food/Emptycart.dart';
-import 'package:citycart/Page/Food/Food_wallet.dart';
 import 'package:citycart/Page/Grocery/Grocery_HomePage.dart';
 import 'package:citycart/Page/Food/HomeScreen.dart';
 import 'package:citycart/Page/Medicine/MedicinePage.dart';
 import 'package:citycart/Page/OnboardingScreen.dart';
-import 'package:citycart/Page/trackorder.dart';
+
 import 'package:flutter/material.dart';
 
 // Add imports for new pages if necessary
@@ -41,10 +40,10 @@ class _BottomNavigationState extends State<BottomNavigation> {
         );
         break;
       case 2:
-        Navigator.push(
-          context,
-          MaterialPageRoute(builder: (context) => Wallet()),
-        );
+        // Navigator.push(
+        //   context,
+        //   MaterialPageRoute(builder: (context) => Wallet()),
+        // );
         break;
       case 3:
       // Navigator.push(

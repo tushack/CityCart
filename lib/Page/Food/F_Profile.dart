@@ -1,7 +1,7 @@
 // import 'package:citycart/Page/Editprofile.dart';
 import 'package:citycart/Page/Food/F_editprofile.dart';
 import 'package:citycart/Page/Food/Food_Bottom_navbar.dart';
-import 'package:citycart/Page/OrderSummary.dart';
+
 import 'package:citycart/Page/otpPage.dart';
 import 'package:flutter/material.dart';
 
@@ -143,10 +143,7 @@ class ProfileScreen extends StatelessWidget {
                         GestureDetector(
                           onTap: () {
                             // Navigate to the next page when the user taps on the Container
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(builder: (context) => OrderSummary()), // Replace with your next page widget
-                            );
+
                           },
                           child: Row(
                             children: [

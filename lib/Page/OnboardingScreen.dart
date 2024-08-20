@@ -1,7 +1,7 @@
 import 'package:citycart/Page/Grocery/Grocery_HomePage.dart';
 import 'package:citycart/Page/Food/HomeScreen.dart';
 import 'package:citycart/Page/Medicine/MedicinePage.dart';
-import 'package:citycart/Page/OrderSummary.dart';
+
 import 'package:flutter/material.dart';
 
 class OnboardingScreen extends StatelessWidget {
